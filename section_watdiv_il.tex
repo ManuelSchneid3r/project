@@ -1,10 +1,12 @@
 \section{WatDiv Increasing Linear Queries} 
+\label{queries:watdivil} 
 
 \subsection{WatDiv IL-1 Queries} 
 
 \begin{lstlisting}[caption={IL-1-5},label=query:IL-1-5]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -15,7 +17,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
 
 \begin{lstlisting}[caption={IL-1-7},label=query:IL-1-6]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -27,7 +30,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
 
 \begin{lstlisting}[caption={IL-1-7},label=query:IL-1-7]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -40,7 +44,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
 
 \begin{lstlisting}[caption={IL-1-8},label=query:IL-1-8]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -54,7 +59,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
 
 \begin{lstlisting}[caption={IL-1-9},label=query:IL-1-9]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -69,7 +75,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
 
 \begin{lstlisting}[caption={IL-1-10},label=query:IL-1-10]
 #mapping v0 wsdbm:User uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10
+WHERE {
  %v0% wsdbm:follows ?v1 .
  ?v1 wsdbm:likes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -87,7 +94,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10 WHERE {
 
 \begin{lstlisting}[caption={IL-2-5},label=query:IL-2-5]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -98,7 +106,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
 
 \begin{lstlisting}[caption={IL-2-7},label=query:IL-2-6]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -110,7 +119,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
 
 \begin{lstlisting}[caption={IL-2-7},label=query:IL-2-7]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -123,7 +133,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
 
 \begin{lstlisting}[caption={IL-2-8},label=query:IL-2-8]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -137,7 +148,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
 
 \begin{lstlisting}[caption={IL-2-9},label=query:IL-2-9]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -152,7 +164,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
 
 \begin{lstlisting}[caption={IL-2-10},label=query:IL-2-10]
 #mapping v0 wsdbm:Retailer uniform
-SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10 WHERE {
+SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10
+WHERE {
  %v0% gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 sorg:director ?v3 .
@@ -169,7 +182,8 @@ SELECT ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10 WHERE {
 \subsection{WatDiv IL-3 Queries} 
 
 \begin{lstlisting}[caption={IL-3-5},label=query:IL-3-5]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -179,7 +193,8 @@ SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 WHERE {
 \end{lstlisting}
 
 \begin{lstlisting}[caption={IL-3-7},label=query:IL-3-6]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -190,7 +205,8 @@ SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 WHERE {
 \end{lstlisting}
 
 \begin{lstlisting}[caption={IL-3-7},label=query:IL-3-7]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -202,7 +218,8 @@ SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 WHERE {
 \end{lstlisting}
 
 \begin{lstlisting}[caption={IL-3-8},label=query:IL-3-8]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -215,7 +232,8 @@ SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 WHERE {
 \end{lstlisting}
 
 \begin{lstlisting}[caption={IL-3-9},label=query:IL-3-9]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
@@ -229,7 +247,8 @@ SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 WHERE {
 \end{lstlisting}
 
 \begin{lstlisting}[caption={IL-3-10},label=query:IL-3-10]
-SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10 WHERE {
+SELECT ?v0 ?v1 ?v2 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 ?v10
+WHERE {
  ?v0 gr:offers ?v1 .
  ?v1 gr:includes ?v2 .
  ?v2 rev:hasReview ?v3 .
